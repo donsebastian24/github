@@ -1,0 +1,59 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+
+.manage{
+    width: 100%;
+    height: 491px;
+    background: #F1E4FF;
+}
+.manage div{
+    display: flex;
+}
+.manage hr{
+    width: 1083px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-left:178.5px;
+}
+.manage .manage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 540px;
+    height: 248px;
+    margin-left: 165px;
+    margin-top: 122px;
+}
+.manage-text{
+    display: flex;
+    flex-direction: column;
+}
+.manage-text .manage-heading{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.manage-text .manage-description{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+.manage-appstore{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 282px;
+}
+.screen2{
+    margin-left: 150px;
+    margin-top: 149px;
+}
+.screen1{
+    margin-right: 165px;
+}

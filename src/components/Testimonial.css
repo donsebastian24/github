@@ -1,0 +1,86 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+.testimonial{
+    width: 100%;
+    height: 661px;
+    background-color:  #F1E4FF;
+    display: flex;
+    flex-direction: column;
+}
+.testimonial-heading{
+    display: flex;
+    flex-direction: row;
+}
+.test-text{
+    font-family: "circular std";
+    margin-left: 165px;
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.test-text .test-heading{
+    width: 540px;
+    height: 64px;   
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64px;
+    color: #18191F;
+}
+.test-text .test-description{
+    width: 575px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 4px;
+}
+.quote{
+    width: 359px;
+    height: 305px;
+    margin-left: 294px;
+    margin-top: 48px;
+    z-index: 0;
+}
+.testimonial-videos{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1160px;
+    height: 292px;
+    margin-left: 165px;
+    margin-top: 74px;
+    z-index: 1;
+    
+}
+.testimonial-videos .video1{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   width: 350px;
+   height: 292px;
+   margin-right: 30px;
+}
+.video1 .video-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    height: 80px;
+    margin-top: 16px;
+}
+.video-heading{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.video-description{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+}

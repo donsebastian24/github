@@ -1,0 +1,144 @@
+
+
+.install{
+    display: flex;
+    width: auto;
+    height: 580px;
+
+}
+.intsall-content{
+    width: 45%;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10%;
+    margin-left: 11%;
+    font-family: 'Noto Sans', sans-serif;  
+}
+.install-text{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.install-description{
+    font-size: 17px;
+    font-weight: 400px;
+    line-height: 32px;
+    margin-top: 1%;
+}
+.install-screen{
+    margin-top: 7%;
+    margin-left: 3%;
+    margin-right: 8%;
+}
+.install-screen img{
+    width: 524px;
+    height: 400px;
+    
+}
+
+
+@media(max-width:1024px){
+
+    .install-text{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .install-description{
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 25px;
+        margin-top: 1%;
+    }
+    .install-screen{
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 350px;
+    }
+}
+@media (max-width:768px){
+    .install{
+        display: flex;
+        flex-direction: column;
+       }
+    .intsall-content{
+        width: 75%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 12%; 
+    }
+    .install-text{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .install-description{
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 25px;
+        margin-top: 1%;
+    }
+    .install-screen{
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 2%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 350px;
+    }
+}
+@media(max-width:480px){
+    .intsall-content{
+        width: 75%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 12%;
+    }
+    .install-text{
+        font-size: 30px;
+    }
+    .install-description{
+        font-size: 12px;
+    }
+    .install-screen{
+        margin-top: 35%;
+        margin-left: 17%;
+        margin-right: 2%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 200px;
+    }
+}
+@media(max-width:390px){
+    .install-text{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .install-screen{
+        margin-top: 35%;
+        margin-left: 11%;
+        margin-right: 7%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 220px;
+    }
+}
+
+

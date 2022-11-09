@@ -1,0 +1,257 @@
+
+
+.TabDiv1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 520;
+    font-size: 45px;
+    line-height: 56px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Tabtext1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 520;
+    font-size: 48px;
+    color: #18191F;
+}
+
+
+.TabDiv {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
+
+
+}
+
+.TabDiv2 {
+    margin-top: 5%;
+    display: flex;
+
+
+
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+
+}
+
+/*.row2 {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: row;
+}*/
+
+
+/*card css*/
+
+.cardData {
+    margin-right: 2%;
+    padding: 2%;
+    text-align: left;
+
+}
+
+.card {
+    border-color: rgba(225, 228, 235, 1);
+    border: 1px solid #E1E4EB;
+    border-radius: 12px;
+    width: 20%;
+
+}
+
+#chead {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -1.6px;
+    color: #111111;
+
+}
+
+#cpara {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.bi {
+    width: 36px;
+    height: 36px;
+    color: #6f42c1;
+    padding-bottom: 3%;
+}
+
+.TabDiv3 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+/*Tab switchcss*/
+
+
+
+li {
+    list-style-type: none;
+}
+
+.switch {
+    display: flex;
+    position: relative;
+    width: 25%;
+    padding: 0.1em;
+    margin: 0 auto;
+    background: linear-gradient(0deg, white, white) no-repeat, #f8f8f8;
+    background-size: 50% 100%;
+    background-position-x: 100%;
+    border: 0.4em solid #f8f8f8;
+    border-radius: 10px;
+    transition: all 150ms 0s ease-in-out;
+}
+
+.switch .switch__option:first-child {
+    color: #783bff;
+}
+
+.switch .switch__option:last-child {
+    color: #783bff;
+}
+
+.switch.on {
+    background-position-x: 0;
+}
+
+.switch.on .switch__option:first-child {
+    color: #783bff;
+}
+
+.switch.on .switch__option:last-child {
+    color: #783bff;
+}
+
+.switch__option {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: all 150ms 150ms ease-in-out;
+}
+
+/*end */
+/*.btn {
+    margin: 0.3%;
+    width: 15%;
+    height: 8%;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(120, 59, 255, 1);
+
+}*/
+
+/*Responsive*/
+@media(max-width:1024px) {
+    .Tabtext1{
+        font-size: 36px;
+    }
+}
+@media(max-width:768px) {
+    .TabDiv1 {
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+
+    .Tabtext1 {
+        font-size: 32px;
+
+    }
+
+
+}
+
+
+@media(max-width:480px) {
+    .TabDiv1 {
+        font-size: 28px;
+        line-height: 20px;
+
+
+    }
+
+    .Tabtext1 {
+        font-size: 30px;
+        line-height: 48px;
+
+    }
+
+    .row1,
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 65%;
+        margin-top: 3%;
+    }
+
+    #chead {
+        font-family:'Noto Sans', sans-serif;
+        font-style: normal;
+        font-weight: 550;
+        font-size: 20px;
+    }
+
+    .TabDiv2 {
+        margin-left: 0%;
+    }
+
+    /*.btn {
+        width: 20%;
+        font-size: small;
+
+    }*/
+
+    .switch {
+        width: 50%;
+        height: 18%;
+        padding: 0.2em;
+        background-size: 50% 100%;
+        border: 0.3em solid #f8f8f8;
+
+    }
+
+    .bi {
+        width: 32px;
+        height: 32px;
+
+    }
+}
+
+@media(max-width:390px) {
+
+    .TabDiv1 {
+        font-size: 26px;
+
+    }
+}

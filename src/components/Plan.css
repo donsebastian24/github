@@ -1,0 +1,325 @@
+.plandiv2 {
+    margin-top: 5%;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 66px;
+    background: #FFFFFF;
+    border: 1px solid #E1E4EB;
+    border-radius: 24px;
+    width: 25%;
+    margin-left: 3%;
+
+}
+
+.cdata {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: center;
+    padding-bottom: 8%;
+
+}
+
+.check2 {
+    width: 14px;
+    height: 14px;
+
+    color: #783BFF;
+}
+
+.chead1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -0.8px;
+    color: #111111;
+    text-align: center;
+}
+
+hr {
+    color: gray;
+    height: 1px;
+    height: 2px;
+    display: block;
+    width: 96%;
+}
+
+.cdescription {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.cprice {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -2.3px;
+    color: #111111;
+}
+
+.cdescription1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 5%;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -0.3px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+.cdescription2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.355556px;
+    color: #111111;
+}
+
+.btn {
+    width: 85%;
+    margin-top: auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -0.355556px;
+    color: #783BFF;
+    border: 1px solid #E1E4EB;
+    border-radius: 12px
+}
+
+.row3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.plandiv1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 400px;
+    margin-top: 5%;
+}
+
+.planhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 40%;
+    
+}
+
+.phead {
+    font-family:'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.pdescription {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #4F4F4F;
+}
+
+.pswitch{
+   margin-right: 8%;
+}
+
+
+
+
+/*switch button*/
+
+.swtch {
+    display: flex;
+    position: absolute;
+    min-width: 12%;
+    padding: 0.3em;
+    margin: 0 auto;
+    background: linear-gradient(0deg, white, white) no-repeat, #f8f8f8;
+    background-size: 50% 100%;
+    background-position-x: 100%;
+    border: 0.4em solid #f8f8f8;
+    border-radius: 0.4em;
+    transition: all 150ms 0s ease-in-out;
+  }
+  .swtch .swtch__option:first-child {
+    color: #783bff;
+  }
+  .swtch .swtch__option:last-child {
+    color: #783bff;
+  }
+  
+  .swtch.on {
+    background-position-x: 0;
+  }
+  .swtch.on .swtch__option:first-child {
+    color: #783bff;
+  }
+  .swtch.on .swtch__option:last-child {
+    color: #783bff;
+  }
+  
+  .swtch__option {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    font-size: x-small;
+    font-weight: bold;
+    transition: all 150ms 150ms ease-in-out;
+  }
+
+@media(max-width:1024px) {
+    .phead{
+        font-size: 36px;
+    }
+    .plandiv1{
+        gap: 360px;
+    }
+
+
+}
+@media(max-width:768px) {
+    .plandiv1 {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+       
+    }
+    .phead {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .planhead{
+        width: 60%;
+    }
+
+    .pswitch{
+        
+        width: 25%;
+        align-self: flex-end;
+    }
+    .swtch {
+        position: relative;
+    }    
+
+
+
+
+
+    
+}
+
+@media(max-width:480px) {
+    .row3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        
+        
+
+    }
+
+    .card1 {
+        width: 60%;
+        margin-bottom: 5%;
+
+    }
+    .chead1{
+        font-weight: 530;
+    }
+
+
+    .plandiv1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+    .swtch {
+        display: flex;
+        position: relative;
+        min-width: 12%;
+        padding: 0.3em;
+        margin: 0 auto;
+        background: linear-gradient(0deg, white, white) no-repeat, #f8f8f8;
+        background-size: 50% 100%;
+        background-position-x: 100%;
+        border: 0.4em solid #f8f8f8;
+        border-radius: 0.4em;
+        transition: all 150ms 0s ease-in-out;
+    }
+    .planhead{
+        width: 60%;
+    }
+
+    
+
+    .pswitch{
+        margin-right: 0%;
+        width: 40%;
+        align-self: center;
+    }
+
+    .swtch__option {
+        
+        font-size: small;
+        font-weight: bold;
+        
+    }
+
+    .phead{
+        font-size: 28px;
+        line-height: 32px;
+    }
+}

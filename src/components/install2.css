@@ -1,0 +1,149 @@
+
+
+
+
+.install2{
+display: flex;
+}
+.install-screen2{
+    margin-top: 4%;
+    margin-left: 7%;
+   
+}
+.install-screen2 img{
+    width: 524px;
+    height: 400px;
+    
+}
+.intsall-contentII{
+    width: 46%;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 6%;
+    margin-left: 4%;
+    font-family: 'Noto Sans', sans-serif;
+}
+.install-text2{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.install-description2{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 32px;
+    margin-top: 1%;
+}
+@media(max-width:1024px){
+    .install2{
+        display: flex;
+        flex-direction: row;
+    }
+    .intsall-contentII{
+        width: 40%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 6%;
+        margin-left: 4%;
+    }
+    .install-screen2{
+        margin-top: 4%;
+        margin-left: 4%;
+       
+    }
+    .install-text2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .install-description2{
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 22px;
+        margin-top: 1%;
+    }
+    .install-screen2 img{
+        width: auto;
+        height: 350px;
+    }
+}
+@media(max-width:768px){
+  .install2{
+    display: flex;
+    flex-direction: column;
+  }
+    .install2 .install-screen2{
+        margin-top: 9%;
+        margin-left: 20%;
+        order: 2;
+    }
+    .install2 .intsall-contentII{
+        width: 75%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 9%;
+        margin-left: 11%;
+        margin-bottom: 5%;
+
+    }
+}
+@media (max-width:480px){
+    .install2{
+        display: flex;
+        flex-direction: column;
+    }
+    .install2 .intsall-contentII{
+        width: 75%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 11%;
+        margin-bottom: 50%;
+        order: 1;
+
+    }
+    .install-text2{
+        font-size: 30px;
+    }
+    .install2 .install-screen2{
+        margin-top: 4%;
+        margin-left: 16%;
+    }
+    .install-screen2 img{
+        width: auto;
+        height: 200px;
+        
+    }
+
+
+}
+@media(max-width:390px){
+    .install2 .intsall-contentII{
+        margin-top: 10%;
+        margin-left: 11%;
+        margin-bottom: 40%;
+    }
+    .install-text2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .install2 .install-screen2{
+        margin-top: 5%;
+        margin-left: 11%;
+    }
+    .install-screen2 img{
+        width: auto;
+        height: 220px;
+        
+    }
+}

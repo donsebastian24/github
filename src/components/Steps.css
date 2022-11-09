@@ -1,0 +1,231 @@
+
+.steps{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.steps-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:flex-end;
+    width: 80%;
+    height: auto;
+    margin-left: 11%;
+    margin-top: 6%;
+}
+.steps-heading{
+    width: 38%;
+    height: auto;
+}
+.steps-heading p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 48px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 2%;
+}
+.steps-heading img{
+    width: auto;
+    height: 461px;
+    background: #F6F9FF;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.steps-types{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    height: auto;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 4%;
+}
+.patients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 230.5px;
+    background: #6210CC;
+}
+.patients img{
+    margin-left: 13%;
+}
+.patients div{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 80px;
+    color: white;
+}
+.type-heading{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+}
+.type-description{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+.doctors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 230.5px;
+    background: #F1E4FF;
+
+}
+.doctors img{
+    margin-left: 13%;
+
+}
+.doctors div{
+    display: flex;
+    flex-direction: column;
+
+    padding: 48px 80px;
+}
+@media(max-width:1200px){
+    .steps-heading p{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .steps-heading img{
+        width: auto;
+        height: 390px;
+        background: #F6F9FF;
+        border-radius: 8px;
+        margin-top: 24px;
+    }
+    .steps-types{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 60%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+}
+@media(max-width:1024px){
+    .steps-heading p{
+        font-size: 38px;
+    }
+    .steps-heading img{
+        height: 350px;
+    }
+    .patients div{
+        display: flex;
+        flex-direction: column;
+        padding: 38px 50px;
+        color: white;
+    }
+    .type-heading{
+        font-size: 13px;
+        font-weight: 400px;
+        line-height: 18px;
+    }
+    .type-description{
+        font-size: 12px;
+        width: 100%;
+        font-weight: 400px;
+        line-height: 18px;
+        margin-top: 8px;
+    }
+    .patients{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        height: 200px;
+        background: #6210CC;
+    }
+    .doctors{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        height: 200px;
+        background: #F1E4FF;
+    }
+    .doctors div{
+        padding: 38px 50px;
+    }
+}
+@media(max-width:768px){
+    .steps-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .steps-heading{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps-types{
+        margin-top: 10%;
+        margin-left: 0;
+        width: 100%;
+    }
+    .patients{
+        margin-left: 0%;
+    }
+    .patients div{
+        padding: 30px 50px;
+    }
+}
+@media(max-width:480px){
+    .steps-heading p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .steps-heading img{
+        height: 300px;
+    }
+    .patients{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .patients img{
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+    .patients div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .doctors{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .doctors img{
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+    .doctors div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
